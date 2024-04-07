@@ -1,0 +1,101 @@
+body{
+ background-color: red;    
+}
+
+textarea{
+ background-color: red;
+ color: white;
+ resize: none;
+}
+
+h1{
+color: white;    
+}
+
+.videoWrapper {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    height: 0;
+  }
+  .videoWrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  button{
+  color: white;
+  background-color: red;
+  width: fit-content;
+  height: fit-content;  
+  }
+p{
+color: white;
+}
+
+h2{
+  color: whitesmoke;
+}
+
+h3{
+  color: white;
+}
+
+/* Apply a flex container style to the image container */ 
+.image-container { 
+  display: flex; /* Set the container to use flexbox */ 
+  align-items: center; /* Vertically center the images within the container */ 
+  justify-content: space-around; /* Distribute the remaining space around the images */ 
+} 
+ 
+/* Style the images */ 
+.image-container img { 
+  max-width: 100%; /* Ensure images don't exceed their original size */ 
+  height: auto; /* Maintain the aspect ratio of the images */ 
+} 
+
+.daniprogamer0702 {
+ text-align: center;
+ width: 176px;
+}
+
+.daniprogamer0702 img{
+display: block;
+margin: auto auto;
+text-align: center;  
+}
+
+.twg {
+  text-align: center;
+  width: 176px;
+ }
+ 
+ .twg img{
+ display: block;
+ margin: auto auto;
+ text-align: center;  
+ }
+
+ .chb {
+  text-align: center;
+  width: 176px;
+ }
+ 
+ .chb img{
+ display: block;
+ margin: auto auto;
+ text-align: center;  
+ }
+
+ .vivpe {
+  text-align: center;
+  width: 176px;
+ }
+ 
+ .vivpe img{
+ display: block;
+ margin: auto auto;
+ text-align: center;  
+ }
